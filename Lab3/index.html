@@ -1,0 +1,175 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+    <form>
+        <h2 class = "top_box">Student Registration Form</h2>
+        <table>
+            <tr>
+                <td><label>First Name:</label></td>
+                <td><input type="text" name="firstname" placeholder="Ghanendra" maxlength="50" required></td>
+                <td>(Max 50 Characters Allowed) </td>
+            </tr>
+            <tr>
+                <td><label>Last Name:</label></td>
+                <td><input type="text" name="lastname" placeholder="Yadav" maxlength="50" required></td>
+                <td>(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label>Email ID:</label></td>
+                <td colspan = 2><input type="email" name="email" placeholder="yghanendra@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><label>Mobile Number:</label></td>
+                <td><input type="number" name="mobile" placeholder="7842XXXXXX" maxlength="10" required></td>
+                <td>(10 Digits Allowed)</td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td colspan = 2><input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth (DOB):</label></td>
+<td colspan="2">
+    <select name="day">
+        <option>Day</option>
+        <!-- Days from 1 to 31 -->
+        <option value="1">1</option>    <option value="2">2</option>
+        <option value="3">3</option>    <option value="4">4</option>
+        <option value="5">5</option>    <option value="6">6</option>
+        <option value="7">7</option>    <option value="8">8</option>
+        <option value="9">9</option>    <option value="10">10</option>
+        <option value="11">11</option>  <option value="12">12</option>
+        <option value="13">13</option>  <option value="14">14</option>
+        <option value="15">15</option>  <option value="16">16</option>
+        <option value="17">17</option>  <option value="18">18</option>
+        <option value="19">19</option>  <option value="20">20</option>
+        <option value="21">21</option>  <option value="22">22</option>
+        <option value="23">23</option>  <option value="24">24</option>
+        <option value="25">25</option>  <option value="26">26</option>
+        <option value="27">27</option>  <option value="28">28</option>
+        <option value="29">29</option>  <option value="30">30</option>
+        <option value="31">31</option>
+    </select>
+
+    <select name="month">
+        <option>Month</option>
+        <!-- Months -->
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+    </select>
+
+    <select name="year">
+        <option>Year</option>
+        <!-- Years from 1990 to 2024 -->
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+        <option value="1997">1997</option>
+        <option value="1998">1998</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+    </select>
+</td>
+
+            </tr>
+            <tr>
+                <td><label>Address:</label></td>
+                <td colspan = 2 ><textarea name="address" rows="10" cols="40"></textarea></td>
+            </tr>
+            <tr>
+               <td><label>City:</label></td>
+               <td><input type="text" name="city" placeholder="Bangalaore" maxlength="50"></td>
+               <td>(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label>Pin Code:</label></td>
+                <td><input type="text" name="pincode" placeholder="560068" maxlength="6"></td>
+                <td>(Max 6 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label>State:</label></td>
+                <td><input type="text" name="state" placeholder="Karnataka" maxlength="50"></td>
+                <td>(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td ><label>Country:</label></td>
+                <td colspan = 2><input type="text" name="country" placeholder="India"></td>
+            </tr>
+            <tr>
+                <td><label>Hobbies:</label></td>
+                <td colspan = 2>
+                    <input type="checkbox" name="hobby" value="Drawing"> Drawing
+                    <input type="checkbox" name="hobby" value="Singing"> Singing
+                    <input type="checkbox" name="hobby" value="Dancing"> Dancing
+                    <input type="checkbox" name="hobby" value="Sketching"> Sketching <br>
+                    <input type="checkbox" name="hobby" value="Other"> Other
+                    <input type="text" name="hobby_other" maxlength="50" placeholder="Ex: Teaching">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Qualification:</label><br></td>
+                <td colspan = 2>
+                    <input type="radio" name="qualification" value="High School(10th)"> High School (10th)<br>
+                    <input type="radio" name="qualification" value="Higher School(12th)"> Higher School (12th)<br>
+                    <input type="radio" name="qualification" value="Graduation(Bachelors)"> Graduation (Bachelors)<br>
+                    <input type="radio" name="qualification" value="Post Graduation(Masters)"> Post Graduation (Masters)<br>
+                    <input type="radio" name="qualification" value="Phd"> Phd
+                </td>
+            </tr>
+            <tr>
+                <td><label>Courses Applied For:</label><br></td>
+                <td colspan = 2>
+                    <input type="radio" name="course" value="BCA"> BCA (Bachelor of Computer Applications)<br>
+                    <input type="radio" name="course" value="B.Com"> B.Com (Bachelor of Commerce)<br>
+                    <input type="radio" name="course" value="B.Sc"> B.Sc (Bachelor of Science)<br>
+                    <input type="radio" name="course" value="BA"> BA (Bachelor of Arts)<br>
+                    <input type="radio" name="course" value="MCA"> MCA (Master of Computer Applications)<br>
+                    <input type="radio" name="course" value="M.Com"> M.Com (Master of Commerce)<br>
+                    <input type="radio" name="course" value="M.Sc"> M.Sc (Master of Science)<br>
+                    <input type="radio" name="course" value="MA"> MA (Master of Arts)<br>
+                </td>
+            </tr>
+        </table>
+        <div class="button_box">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+        </form>
+    </div>
+</body>
+</html>

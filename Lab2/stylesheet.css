@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+body {
+    background-image: url(coffee.jpg);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    color: #1f1212;
+}
+table{
+    margin-left: 6em;
+    text-align: center;
+    border-color:#C9C9C7;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    overflow-x: auto;
+    overflow: hidden;
+}
+.page{
+    width:65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.days{
+    border-radius: 2px;
+    color: #2c1b1b;
+    font-weight: bold;
+    padding: 1em;
+    transition: color 0.4s ease;
+}
+.days:hover{
+    background: radial-gradient(circle,#4e3434,#2c1b1b 60%);
+    color:white;
+}
+
+td,th{
+    border-radius: 2px;
+    color: #2c1b1b;
+    padding:0.4em;
+    transition: color 0.4s ease;
+}
+
+td:hover,th:hover{
+    background: radial-gradient(circle,#4e3434,#2c1b1b 60%);
+    color:white;
+}

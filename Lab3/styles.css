@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: white;
+    text-shadow: 2px 1px  #505050;
+    
+}
+tr,td{
+    padding: 6px;
+}
+table{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px  #505050;
+}
+.form-container {
+    background: linear-gradient(to bottom,  #01E6AD,#0064EA);
+    
+
+    padding: 20px;
+    border: 1px dashed black;
+    border-radius: 10px;
+
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container textarea
+{
+    width: 30vw;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-container select {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+.form-container button {
+    padding: 10px 15px;
+    background-color: #1d1b1b;
+    color: white;
+    text-shadow: 2px 1px rgb(0, 0, 0);
+    font-size : 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #06be90;
+}
+.button_box{
+    text-align:center;
+
+}
+.top_box{
+    text-align:center;
+    font-size: 40px;
+    
+}
