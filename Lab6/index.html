@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+</head>
+<body>  
+<section id="section1">
+    <h2> Harry potter </h2>
+    <h1>What is the name of Harry Potter's owl?</h1>
+        <div class="options" q_id="q1">
+            <button onclick="selectAnswer(1, 'Hedwig')">Hedwig</button>
+            <button onclick="selectAnswer(1, 'Crookshanks')">Crookshanks</button>
+            <button onclick="selectAnswer(1, 'Errol')">Errol</button>
+            <button onclick="selectAnswer(1, 'Fawkes')">Fawkes</button>
+        </div>
+
+<button class= "next-btn" onclick="document.getElementById('section2').scrollIntoView({behavior: 'smooth'})">
+NEXT</button>
+
+</section>
+
+<section id="section2">
+    <h2> Harry potter </h2>
+    <h1>Who is Harry Potter's godfather?</h1>
+    <div class="options" id="q2">
+        <button onclick="selectAnswer(2, 'Remus Lupin')">Remus Lupin</button>
+        <button onclick="selectAnswer(2, 'Sirius Black')">Sirius Black</button>
+        <button onclick="selectAnswer(2, 'Albus Dumbledore')">Albus Dumbledore</button>
+        <button onclick="selectAnswer(2, 'Rubeus Hagrid')">Rubeus Hagrid</button>
+    </div>
+<button class= "next-btn" onclick="document.getElementById('section3').scrollIntoView({behavior: 'smooth'})">
+NEXT</button>
+<button class= "next-btn" onclick="document.getElementById('section1').scrollIntoView({behavior: 'smooth'})">
+    BACK</button>
+</section>
+
+<section id="section3" >
+    <h2> Harry potter </h2>
+    <h1>What house at Hogwarts does Hermione belong to?</h1>
+        <div class="options" id="q3">
+            <button onclick="selectAnswer(3, 'Hufflepuff')">Hufflepuff</button>
+            <button onclick="selectAnswer(3, 'Slytherin')">Slytherin</button>
+            <button onclick="selectAnswer(3, 'Ravenclaw')">Ravenclaw</button>
+            <button onclick="selectAnswer(3, 'Gryffindor')">Gryffindor</button>
+        </div>
+<button class= "next-btn" onclick="document.getElementById('section4').scrollIntoView({behavior: 'smooth'})">
+NEXT</button>
+<button class= "next-btn" onclick="document.getElementById('section2').scrollIntoView({behavior: 'smooth'})">
+    BACK</button>
+</section>
+
+<section id="section4" >
+    <h2> Harry potter </h2>
+    <h1>What spell is used to disarm an opponent?</h1>
+    <div class="options" id="q4">
+        <button onclick="selectAnswer(4, 'Expelliarmus')">Expelliarmus</button>
+        <button onclick="selectAnswer(4, 'Stupefy')">Stupefy</button>
+        <button onclick="selectAnswer(4, 'Avada Kedavra')">Avada Kedavra</button>
+        <button onclick="selectAnswer(4, 'Accio')">Accio</button>
+    </div>
+<button class= "next-btn" onclick="document.getElementById('section5').scrollIntoView({behavior: 'smooth'})">
+NEXT</button>
+<button class= "next-btn" onclick="document.getElementById('section3').scrollIntoView({behavior: 'smooth'})">
+    BACK</button>
+</section>
+
+<section id="section5" >
+    <h2> Harry potter </h2>
+    <h1>What is the name of the Weasley family's home?</h1>
+    <div class="options" id="q5">
+        <button onclick="selectAnswer(5, 'The Burrow')">The Burrow</button>
+        <button onclick="selectAnswer(5, 'Grimmauld Place')">Grimmauld Place</button>
+        <button onclick="selectAnswer(5, 'Shell Cottage')">Shell Cottage</button>
+        <button onclick="selectAnswer(5, 'Malfoy Manor')">Malfoy Manor</button>
+    </div>
+<button class= "next-btn" onclick="document.getElementById('section6').scrollIntoView({behavior: 'smooth'})">
+NEXT</button>
+<button class= "next-btn" onclick="document.getElementById('section4').scrollIntoView({behavior: 'smooth'})">
+    BACK</button>
+</section>
+
+<section id="section6" >
+    <h2> Harry potter </h2>
+    <h1>What is the name of the potion that grants good luck?</h1>
+        <div class="options" id="q6">
+            <button onclick="selectAnswer(6, 'Felix Felicis')">Felix Felicis</button>
+            <button onclick="selectAnswer(6, 'Polyjuice Potion')">Polyjuice Potion</button>
+            <button onclick="selectAnswer(6, 'Amortentia')">Amortentia</button>
+            <button onclick="selectAnswer(6, 'Veritaserum')">Veritaserum</button>
+        </div>
+<button class= "next-btn" onclick="document.getElementById('section7').scrollIntoView({behavior: 'smooth'})">
+NEXT</button>
+<button class= "next-btn" onclick="document.getElementById('section5').scrollIntoView({behavior: 'smooth'})">
+    BACK</button>
+</section>
+
+<section id="section7" >
+    <h2> Harry potter </h2>
+    <h1>Who is the ghost of Gryffindor House?</h1>
+        <div class="options" id="q7">
+            <button onclick="selectAnswer(7, 'Nearly Headless Nick')">Nearly Headless Nick</button>
+            <button onclick="selectAnswer(7, 'The Grey Lady')">The Grey Lady</button>
+            <button onclick="selectAnswer(7, 'The Fat Friar')">The Fat Friar</button>
+            <button onclick="selectAnswer(7, 'Moaning Myrtle')">Moaning Myrtle</button>
+        </div>
+<button class= "next-btn" onclick="document.getElementById('section8').scrollIntoView({behavior: 'smooth'})">
+NEXT</button>
+<button class= "next-btn" onclick="document.getElementById('section6').scrollIntoView({behavior: 'smooth'})">
+    BACK</button>
+
+</section>
+
+<section id="section8" >
+    <h2> Harry potter </h2>
+    <h1>What magical creature is Hagrid's pet?</h1>
+    <div class="options" id="q8">
+        <button onclick="selectAnswer(8, 'A phoenix')">A phoenix</button>
+        <button onclick="selectAnswer(8, 'A dragon')">A dragon</button>
+        <button onclick="selectAnswer(8, 'A giant')">A giant</button>
+        <button onclick="selectAnswer(8, 'A unicorn')">A unicorn</button>
+    </div>
+<button class= "next-btn" onclick="document.getElementById('section9').scrollIntoView({behavior: 'smooth'})">
+NEXT</button>
+<button class= "next-btn" onclick="document.getElementById('section7').scrollIntoView({behavior: 'smooth'})">
+    BACK</button>
+</section>
+
+<section id="section9" >
+    <h2> Harry potter </h2>
+    <h1>Which magical creature can only be seen by those who have witnessed death?</h1>
+        <div class="options" id="q9">
+            <button onclick="selectAnswer(9, 'Thestrals')">Thestrals</button>
+            <button onclick="selectAnswer(9, 'Hippogriffs')">Hippogriffs</button>
+            <button onclick="selectAnswer(9, 'Nifflers')">Nifflers</button>
+            <button onclick="selectAnswer(9, 'Acromantulas')">Acromantulas</button>
+        </div>
+<button class= "next-btn" onclick="document.getElementById('section10').scrollIntoView({behavior: 'smooth'})">
+NEXT</button>
+<button class= "next-btn" onclick="document.getElementById('section8').scrollIntoView({behavior: 'smooth'})">
+    BACK</button>
+</section>
+
+<section id="section10">
+    <h2> Harry potter </h2>
+    <h1>In Goblet of Fire, how many students participated in the Triwizard Tournament?</h1>
+        <div class="options" id="q10">
+            <button onclick="selectAnswer(10, '10')">10</button>
+            <button onclick="selectAnswer(10, '12')">12</button>
+            <button onclick="selectAnswer(10, '14')">14</button>
+            <button onclick="selectAnswer(10, '16')">16</button>
+        </div>
+        <button class= "next-btn" onclick="document.getElementById('section9').scrollIntoView({behavior: 'smooth'})">
+            BACK</button>
+        <button class= "next-btn" onclick="submitQuiz()">
+            SUBMIT</button>
+</section>
+<script src="script.js"></script> 
+</body>
+</html>
