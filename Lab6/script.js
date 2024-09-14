@@ -23,7 +23,7 @@ const correctAnswers = {
     7: 'Nearly Headless Nick',
     8: 'A dragon',
     9: 'Thestrals',
-    10 : '14'
+    10: '14'
 };
 
 let selectedAnswers = {};

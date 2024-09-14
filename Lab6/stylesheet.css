@@ -19,7 +19,9 @@ section {
     background-image: url(src/89733.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 } 
+
 .section button{
     flex-direction: row;
     
@@ -72,7 +74,7 @@ h2{
     font-family: 'Harry Potter', sans-serif;    
     width: 7vw;
     font-size : 1.2vw;
-    padding: 10px 20px;
+    padding: 10px;
     margin: 0.5vw;
     border: none;
     border-radius: 5px;
